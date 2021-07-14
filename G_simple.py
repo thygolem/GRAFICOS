@@ -16,9 +16,13 @@ x = np.array(range(500))*0.1
 y = np.zeros(len(x))
 for i in range(len(x)):
     y[i] = math.sin(x[i])
-plt.plot(x,y)
+
 
 # Creamos el gráfico
+plt.plot(x,y)
+plt.xlabel("Coordenada X")
+plt.ylabel("Coordenada Y")
+plt.title("SENO ex: 1")
+
 plt.ioff()
 plt.show()
-
