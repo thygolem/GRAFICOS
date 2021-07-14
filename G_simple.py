@@ -32,11 +32,17 @@ for j in range(len(x_2)):
 plt.plot(x,y,'y--',x_2,y_2,'c_')
 
 '''
-Colores Matplotlib: 'r', 'g', 'b', 'c', 'm' 'y', 'k', 'w'
+Colores Matplotlib:
+
+'r', 'g', 'b', 'c', 'm' 'y', 'k', 'w'
+
 '''
 
 '''
-Tipos de lineas: '-', '--', '-_', ':', '_', 'O', 'v', '^', '<','>', '1', '2', '3', '4', 's', 'p', '*', 'h', 'H', '+', 'x', 'D', 'd', 'l'
+Tipos de lineas:
+
+'-', '--', '-_', ':', '_', 'O', 'v', '^', '<','>', '1', '2', '3', '4', 's', 'p', '*', 'h', 'H', '+', 'x', 'D', 'd', 'l'
+
 '''
 
 
@@ -46,6 +52,10 @@ plt.ylabel("Coordenada Y")
 plt.legend(['Seno', 'Coseno'])
 
 plt.title("SENO ex: 1")
+
+plt.text(40,0.5, 'openBCI Is the target !!!', fontsize=10)
+# Y mucho más en: https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.text.html
+
 
 
 
